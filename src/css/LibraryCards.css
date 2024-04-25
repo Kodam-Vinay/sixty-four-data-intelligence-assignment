@@ -1,0 +1,71 @@
+.library-card-container {
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+  padding: 5px;
+  height: 35%;
+  position: absolute;
+  margin-top: -30px;
+  justify-content: space-evenly;
+  width: 80%;
+}
+
+.book-icon {
+  height: 25px;
+  margin-right: 100px;
+  margin-bottom: 10px;
+}
+
+.color-blue {
+  color: #4ec2f6;
+}
+.color-voilet {
+  color: #6c70eb;
+}
+.color-red {
+  color: #fe525e;
+}
+.color-orange {
+  color: #fb8354;
+}
+.color-green {
+  color: #17ce90;
+}
+.each-library-card {
+  padding: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  box-shadow: 2px 2px 2px gray;
+  border-radius: 10px;
+  height: 180px;
+  width: 200px;
+  background-color: white;
+  flex-shrink: 0;
+  margin-right: 20px;
+}
+
+.each-library-card > p:nth-child(2) {
+  font-weight: bold;
+}
+
+.each-library-card > p:nth-child(3) {
+  color: #717171;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 300px) {
+  .library-card-container {
+    width: 80%;
+    margin-top: -20px;
+  }
+  .each-library-card {
+    margin: 5px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .library-card-container {
+    margin-top: -30px;
+  }
+}

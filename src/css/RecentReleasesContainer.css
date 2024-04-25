@@ -1,0 +1,28 @@
+.recent-release-container {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px 2px 2px gray;
+  padding: 5px;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.label-select-container {
+  display: flex;
+  justify-content: space-between;
+}
+.label-select-container > label {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.label-select-container > select {
+  outline: none;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .recent-release-container {
+    width: 30%;
+  }
+}

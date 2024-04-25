@@ -1,0 +1,27 @@
+.main-container {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  /* overflow-y: auto; */
+}
+
+.carousel-recent-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 160px;
+  padding: 5px;
+  justify-content: space-around;
+  width: 80%;
+}
+
+@media screen and (min-width: 300px) {
+  .carousel-recent-container {
+    margin-top: 180px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .carousel-recent-container {
+    flex-direction: row;
+  }
+}
